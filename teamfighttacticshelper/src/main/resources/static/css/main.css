@@ -1,0 +1,92 @@
+header,body{
+    margin: 0;
+    display: block;
+}
+.indexbody{
+    top: 0;
+    background-color: #f1f1f1;
+}
+.header{
+    top: 0;
+    background-color: black;    
+   
+}
+.itemtable{
+    
+}
+.itemtable td{
+    /* border: 5px solid red; */
+}
+.itemtable th{
+    /* border: 5px solid ; */
+}
+
+.monsterstable td
+{
+    border: 1px solid black;
+}
+
+.monsterstable th
+{
+    border: 1px solid black;
+}
+.synergytable td{
+    border: 1px solid black;
+}
+.synergytable th{
+    border: 1px solid black;
+}
+.logo{
+    padding: 10px;
+    padding-left: 5%
+}
+.rightbody{
+    position: absolute;
+    top:100px;
+    left: 420px;
+}
+.leftmenu
+{
+    position: absolute;
+    left: 0;
+}
+.leftmenu ul{
+    margin-top: 50px;
+    margin-left: 0;
+    width: 180px;
+    list-style: none;
+    color: black;
+}
+.leftmenu-li{
+    padding: 10%;
+    text-align: center;
+    border: 1px solid red;
+    cursor: pointer;
+    
+}
+.leftmenu-li a{
+    color: #7774d6;
+}
+.leftmenu-li:hover{
+    background-color: #8cf8ff;
+}
+
+.tips{
+    
+    display: none;
+    position: absolute;
+    border:'1px solid #FF0000';
+    background-color: dcd15b;
+    background-color: rgba(255, 255, 255, 0.7)
+}
+.tips span{
+    opacity: 1;
+}
+
+.footer{
+    position: absolute;
+    top: 1000px;
+}
+.itemimg{
+
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>云顶之弈助手</title>
+        <link href="./css/main.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript" src="./js/main.js"></script>
+    </head>
+    <body class="indexbody">
+        <header class="header">
+            <div class="logo">
+                <img src="./images/LOGO.png" >
+            </div>
+        </header>
+        <div>
+            <div class="leftmenu">
+                <ul>
+                    <li class="leftmenu-li" onclick="showMonsters()">
+                       <a >野怪</a>
+                    </li>
+                    <li class="leftmenu-li" onclick="showItem()">
+                        <a >装备</a>
+                     </li>
+                     <li class="leftmenu-li" onclick="showSynergy()">
+                        <a >羁绊</a>
+                     </li>
+                </ul>
+            </div>
+            <div class="rightbody">
+                <div id="item">
+                    <table class="itemtable">
+                    </table>
+                   
+
+                </div>
+
+                <div id="synergy">
+                        
+                </div>
+
+                <div id="monsters">
+                    <table class="monsterstable">
+                    </table>
+                </div>
+            </div>
+            <footer class="footer">
+                <span>&nbsp;</span>
+            </footer>
+            <div class="tips" id="tips" style="">
+            </div>
+        </div>
+    </body>
+<script>   
+ window.load=Init();
+
+</script>
+</html>
